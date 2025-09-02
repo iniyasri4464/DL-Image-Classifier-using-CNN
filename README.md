@@ -127,8 +127,8 @@ def test_model(model, test_loader):
 
   cm = confusion_matrix(all_labels, all_preds)
   plt.figure(figsize=(8, 6))
-  print("Name: Hanshika Varthini R")
-  print("Register No: 212223240046")
+  print("Name:INIYASRI S")
+  print("Register No: 212223230081")
   sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=test_dataset.classes, yticklabels=test_dataset.classes)
   plt.xlabel("Predicted")
   plt.ylabel("Actual")
@@ -165,16 +165,16 @@ predict_image(model,image_index=80,dataset=test_dataset)
 ### OUTPUT
 
 ## Training Loss per Epoch
-![Screenshot 2025-04-24 092407](https://github.com/user-attachments/assets/a2ca7e72-1fc0-4c77-9a2a-f5cd75dd5238)
+<img width="302" height="252" alt="image" src="https://github.com/user-attachments/assets/fe7efea6-557b-43f3-b7d9-ad0280bfd956" />
 
 ## Confusion Matrix
-![Screenshot 2025-04-24 092459](https://github.com/user-attachments/assets/fa0f6403-b308-4311-aa68-c3fa3c2f666f)
+<img width="814" height="702" alt="image" src="https://github.com/user-attachments/assets/227cc1d9-b53e-451b-b994-4377eae839eb" />
 
 ## Classification Report
-![Screenshot 2025-04-24 092613](https://github.com/user-attachments/assets/8ebefd07-9058-4059-b675-b818b1f9e6d9)
+<img width="473" height="400" alt="image" src="https://github.com/user-attachments/assets/a2a02924-3477-405a-a14d-e3162b5309f2" />
 
 ### New Sample Data Prediction
-![Screenshot 2025-04-24 092653](https://github.com/user-attachments/assets/4aa207c5-67e4-4449-bf10-d88b525b9960)
+<img width="481" height="590" alt="image" src="https://github.com/user-attachments/assets/ad381aba-1ca3-49de-bb53-f620674a4568" />
 
 
 ## RESULT
